@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SamplerV2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\poco\;CMake Files\libs\poco\cmake\;CMake Files\libs\poco\Foundation\;CMake Files\libs\poco\Foundation\cmake\;CMake Files\libs\poco\JSON\;CMake Files\libs\poco\JSON\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iosetup">
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/iosetup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iosetup"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iosetup/fast">
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/iosetup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iosetup/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iohandler">
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/iohandler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iohandler"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iohandler/fast">
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/iohandler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iohandler/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Foundation">
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/lib/libPocoFoundationd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add option="-DPOCO_OS_FAMILY_UNIX"/>
+					<Add option="-DPOCO_HAVE_IPv6"/>
+					<Add option="-DPOCO_NO_STAT64"/>
+					<Add option="-DPCRE_STATIC"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/Makefile&quot;  VERBOSE=1 Foundation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Foundation/fast">
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/lib/libPocoFoundationd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add option="-DPOCO_OS_FAMILY_UNIX"/>
+					<Add option="-DPOCO_HAVE_IPv6"/>
+					<Add option="-DPOCO_NO_STAT64"/>
+					<Add option="-DPCRE_STATIC"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/Makefile&quot;  VERBOSE=1 Foundation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JSON">
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/lib/libPocoJSONd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add option="-DPOCO_OS_FAMILY_UNIX"/>
+					<Add option="-DPOCO_HAVE_IPv6"/>
+					<Add option="-DPOCO_NO_STAT64"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/Makefile&quot;  VERBOSE=1 JSON"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JSON/fast">
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/lib/libPocoJSONd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add option="-DPOCO_OS_FAMILY_UNIX"/>
+					<Add option="-DPOCO_HAVE_IPv6"/>
+					<Add option="-DPOCO_NO_STAT64"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src"/>
+					<Add directory="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/Makefile&quot;  VERBOSE=1 JSON/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/IOHandler.cpp">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/IOSetup.cpp">
+			<Option target="iosetup"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib.c">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib.h">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib_ADCTSC.c">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib_ADCTSC.h">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib_McSPI.c">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib_McSPI.h">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib_PWMSS.c">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib_PWMSS.h">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/IOManager/Button.cpp">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/IOManager/Button.h">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/IOManager/IOManager.cpp">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/IOManager/IOManager.h">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/IOManager/InputDevice.cpp">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/IOManager/InputDevice.h">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/IOManager/RotaryEncoder.cpp">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/IOManager/RotaryEncoder.h">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/Util/JsonHelper.cpp">
+			<Option target="iosetup"/>
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/Util/JsonHelper.h">
+			<Option target="iosetup"/>
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ASCIIEncoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AbstractCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AbstractDelegate.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AbstractEvent.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AbstractObserver.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AbstractPriorityDelegate.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AbstractStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AccessExpirationDecorator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AccessExpireCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AccessExpireLRUCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AccessExpireStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ActiveDispatcher.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ActiveMethod.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ActiveResult.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ActiveRunnable.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ActiveStarter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Activity.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Alignment.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Any.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ArchiveStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Array.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Ascii.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AsyncChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AtomicCounter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AutoPtr.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/AutoReleasePool.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Base32Decoder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Base32Encoder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Base64Decoder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Base64Encoder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/BasicEvent.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/BinaryReader.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/BinaryWriter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Buffer.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/BufferAllocator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/BufferedBidirectionalStreamBuf.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/BufferedStreamBuf.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Bugcheck.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ByteOrder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Channel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Checksum.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ClassLibrary.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ClassLoader.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Clock.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Condition.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Config.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Configurable.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ConsoleChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/CountingStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DateTime.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DateTimeFormat.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DateTimeFormatter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DateTimeParser.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Debugger.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DefaultStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DeflatingStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Delegate.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DigestEngine.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DigestStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DirectoryIterator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DirectoryIteratorStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DirectoryIterator_UNIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DirectoryIterator_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DirectoryIterator_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DirectoryIterator_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DirectoryWatcher.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Dynamic/Pair.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Dynamic/Struct.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Dynamic/Var.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Dynamic/VarHolder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Dynamic/VarIterator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DynamicAny.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DynamicAnyHolder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DynamicFactory.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/DynamicStruct.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Environment.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Environment_UNIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Environment_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Environment_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Environment_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Environment_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Environment_WINCE.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Error.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ErrorHandler.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Event.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/EventArgs.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/EventChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/EventLogChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Event_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Event_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Event_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Exception.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ExpirationDecorator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Expire.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ExpireCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ExpireLRUCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ExpireStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FIFOBuffer.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FIFOBufferStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FIFOEvent.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FIFOStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FPEnvironment.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FPEnvironment_C99.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FPEnvironment_DEC.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FPEnvironment_DUMMY.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FPEnvironment_SUN.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FPEnvironment_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/File.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FileChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FileStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FileStreamFactory.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FileStream_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FileStream_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/File_UNIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/File_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/File_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/File_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/File_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/File_WINCE.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Format.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Formatter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FormattingChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Foundation.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FunctionDelegate.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/FunctionPriorityDelegate.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Glob.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/HMACEngine.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Hash.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/HashFunction.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/HashMap.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/HashSet.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/HashStatistic.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/HashTable.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/HexBinaryDecoder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/HexBinaryEncoder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/InflatingStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Instantiator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/KeyValueArgs.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LRUCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LRUStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Latin1Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Latin2Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Latin9Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LineEndingConverter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LinearHashTable.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ListMap.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LocalDateTime.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LogFile.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LogFile_STD.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LogFile_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LogFile_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LogFile_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LogStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Logger.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LoggingFactory.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/LoggingRegistry.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/MD4Engine.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/MD5Engine.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Manifest.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/MemoryPool.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/MemoryStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Message.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/MetaObject.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/MetaProgramming.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Mutex.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Mutex_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Mutex_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Mutex_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Mutex_WINCE.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NObserver.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedEvent.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedEvent_Android.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedEvent_UNIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedEvent_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedEvent_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedEvent_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedMutex.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedMutex_Android.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedMutex_UNIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedMutex_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedMutex_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedMutex_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NamedTuple.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NestedDiagnosticContext.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Notification.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NotificationCenter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NotificationQueue.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NotificationStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NullChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NullStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Nullable.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NumberFormatter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NumberParser.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/NumericString.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ObjectPool.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Observer.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/OpcomChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Optional.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PBKDF2Engine.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Path.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Path_UNIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Path_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Path_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Path_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Path_WINCE.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PatternFormatter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Pipe.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PipeImpl.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PipeImpl_DUMMY.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PipeImpl_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PipeImpl_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PipeStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Platform.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Platform_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Platform_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Platform_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Platform_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Poco.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PriorityDelegate.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PriorityEvent.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PriorityExpire.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PriorityNotificationQueue.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PriorityStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Process.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Process_UNIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Process_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Process_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Process_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Process_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Process_WINCE.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/PurgeStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RWLock.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RWLock_Android.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RWLock_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RWLock_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RWLock_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RWLock_WINCE.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Random.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RandomStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RecursiveDirectoryIterator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RecursiveDirectoryIteratorImpl.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RefCountedObject.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RegularExpression.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RotateStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Runnable.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/RunnableAdapter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SHA1Engine.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ScopedLock.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ScopedUnlock.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Semaphore.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Semaphore_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Semaphore_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Semaphore_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedLibrary.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedLibrary_HPUX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedLibrary_UNIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedLibrary_VMS.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedLibrary_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedLibrary_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedLibrary_WIN32U.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedMemory.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedMemory_DUMMY.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedMemory_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedMemory_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SharedPtr.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SignalHandler.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SimpleFileChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SimpleHashTable.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SingletonHolder.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SortedDirectoryIterator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SplitterChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Stopwatch.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/StrategyCollection.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/StreamChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/StreamConverter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/StreamCopier.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/StreamTokenizer.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/StreamUtil.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/String.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/StringTokenizer.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SynchronizedObject.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/SyslogChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Task.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TaskManager.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TaskNotification.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TeeStream.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TemporaryFile.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TextBufferIterator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TextConverter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TextEncoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TextIterator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Thread.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ThreadLocal.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ThreadPool.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ThreadTarget.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Thread_POSIX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Thread_VX.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Thread_WIN32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Thread_WINCE.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TimedNotificationQueue.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Timer.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Timespan.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Timestamp.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Timezone.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Token.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Tuple.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/TypeList.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Types.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/URI.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/URIStreamFactory.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/URIStreamOpener.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UTF16Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UTF32Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UTF8Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UTF8String.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UTFString.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UUID.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UUIDGenerator.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UnWindows.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UnbufferedStreamBuf.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Unicode.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UnicodeConverter.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UniqueAccessExpireCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UniqueAccessExpireLRUCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UniqueAccessExpireStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UniqueExpireCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UniqueExpireLRUCache.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/UniqueExpireStrategy.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/ValidArgs.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Version.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Void.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Windows1250Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Windows1251Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/Windows1252Encoding.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/WindowsConsoleChannel.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/zconf.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/include/Poco/zlib.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ASCIIEncoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/AbstractObserver.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ActiveDispatcher.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ArchiveStrategy.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Ascii.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/AsyncChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/AtomicCounter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Base32Decoder.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Base32Encoder.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Base64Decoder.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Base64Encoder.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/BinaryReader.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/BinaryWriter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Bugcheck.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ByteOrder.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Channel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Checksum.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Clock.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Condition.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Configurable.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ConsoleChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/CountingStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DateTime.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DateTimeFormat.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DateTimeFormatter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DateTimeParser.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Debugger.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DeflatingStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DigestEngine.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DigestStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DirectoryIterator.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DirectoryIteratorStrategy.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DirectoryIterator_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DirectoryIterator_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DirectoryIterator_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DirectoryIterator_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/DirectoryWatcher.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Environment.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Environment_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Environment_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Environment_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Environment_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Environment_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Environment_WINCE.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Error.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ErrorHandler.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Event.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/EventArgs.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/EventChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/EventLogChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Event_POSIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Event_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Event_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Exception.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FIFOBufferStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FPEnvironment.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FPEnvironment_C99.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FPEnvironment_DEC.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FPEnvironment_DUMMY.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FPEnvironment_SUN.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FPEnvironment_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/File.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FileChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FileStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FileStreamFactory.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FileStream_POSIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FileStream_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/File_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/File_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/File_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/File_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/File_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/File_WINCE.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Format.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Formatter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/FormattingChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Glob.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Hash.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/HashStatistic.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/HexBinaryDecoder.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/HexBinaryEncoder.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/InflatingStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Latin1Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Latin2Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Latin9Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LineEndingConverter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LocalDateTime.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LogFile.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LogFile_STD.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LogFile_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LogFile_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LogFile_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LogStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Logger.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LoggingFactory.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/LoggingRegistry.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/MD4Engine.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/MD5Engine.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Manifest.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/MemoryPool.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/MemoryStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Message.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Mutex.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Mutex_POSIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Mutex_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Mutex_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Mutex_WINCE.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedEvent.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedEvent_Android.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedEvent_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedEvent_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedEvent_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedEvent_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedMutex.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedMutex_Android.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedMutex_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedMutex_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedMutex_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NamedMutex_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NestedDiagnosticContext.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Notification.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NotificationCenter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NotificationQueue.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NullChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NullStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NumberFormatter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NumberParser.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/NumericString.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/OpcomChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Path.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Path_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Path_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Path_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Path_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Path_WINCE.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/PatternFormatter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Pipe.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/PipeImpl.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/PipeImpl_DUMMY.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/PipeImpl_POSIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/PipeImpl_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/PipeStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/PriorityNotificationQueue.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Process.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Process_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Process_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Process_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Process_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Process_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Process_WINCE.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/PurgeStrategy.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RWLock.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RWLock_Android.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RWLock_POSIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RWLock_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RWLock_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RWLock_WINCE.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Random.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RandomStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RefCountedObject.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RegularExpression.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/RotateStrategy.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Runnable.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SHA1Engine.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Semaphore.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Semaphore_POSIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Semaphore_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Semaphore_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedLibrary.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedLibrary_HPUX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedLibrary_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedLibrary_VMS.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedLibrary_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedLibrary_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedLibrary_WIN32U.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedMemory.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedMemory_DUMMY.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedMemory_POSIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SharedMemory_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SignalHandler.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SimpleFileChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SortedDirectoryIterator.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SplitterChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Stopwatch.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/StreamChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/StreamConverter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/StreamCopier.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/StreamTokenizer.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/String.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/StringTokenizer.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SynchronizedObject.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/SyslogChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Task.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TaskManager.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TaskNotification.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TeeStream.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TemporaryFile.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TextBufferIterator.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TextConverter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TextEncoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TextIterator.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Thread.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ThreadLocal.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ThreadPool.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/ThreadTarget.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Thread_POSIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Thread_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Thread_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Thread_WINCE.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/TimedNotificationQueue.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Timer.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Timespan.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Timestamp.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Timezone.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Timezone_UNIX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Timezone_VX.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Timezone_WIN32.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Timezone_WINCE.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Token.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/URI.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/URIStreamFactory.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/URIStreamOpener.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/UTF16Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/UTF32Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/UTF8Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/UTF8String.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/UUID.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/UUIDGenerator.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Unicode.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/UnicodeConverter.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Var.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/VarHolder.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/VarIterator.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Void.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Windows1250Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Windows1251Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/Windows1252Encoding.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/WindowsConsoleChannel.cpp">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/adler32.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/compress.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/crc32.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/crc32.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/deflate.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/deflate.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/infback.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/inffast.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/inffast.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/inflate.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/inflate.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/inftrees.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/inftrees.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_byte_order.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_chartables.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_compile.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_config.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_config.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_dfa_exec.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_exec.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_fullinfo.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_get.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_globals.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_jit_compile.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_maketables.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_newline.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_ord2utf8.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_refcount.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_string_utils.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_study.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_tables.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_ucd.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_valid_utf8.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_version.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/pcre_xclass.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/trees.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/trees.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/zutil.c">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/src/zutil.h">
+			<Option target="Foundation"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/Array.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/Handler.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/JSON.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/JSONException.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/Object.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/ParseHandler.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/Parser.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/PrintHandler.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/Query.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/Stringifier.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/Template.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/include/Poco/JSON/TemplateCache.h">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/Array.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/Handler.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/JSONException.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/Object.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/ParseHandler.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/Parser.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/PrintHandler.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/Query.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/Stringifier.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/Template.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/src/TemplateCache.cpp">
+			<Option target="JSON"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\poco\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\poco\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/PocoMacros.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/DefinePlatformSpecifc.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/FindAPR.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/FindApache2.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/PocoConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/PocoMacros.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/DefinePlatformSpecifc.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/FindAPR.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/FindApache2.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/cmake/PocoConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libs\poco\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\poco\Foundation\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\poco\Foundation\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/cmake/PocoFoundationConfig.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\Foundation\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/Foundation/cmake/PocoFoundationConfig.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\Foundation\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\poco\JSON\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\poco\JSON\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/cmake/PocoJSONConfig.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\JSON\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/poco/JSON/cmake/PocoJSONConfig.cmake">
+			<Option virtualFolder="CMake Files\libs\poco\JSON\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

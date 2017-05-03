@@ -1,0 +1,37 @@
+{
+  "Buttons": [
+    {
+      "name": "Button1",
+      "pin" : 13,
+      "header": 8
+    },
+    {
+      "name": "Button2",
+      "pin" : 12,
+      "header": 9
+    },
+    {
+      "name": "Button3",
+      "pin" : 24,
+      "header": 9
+    },
+    {
+      "name": "RotaryButton1",
+      "pin" : 12,
+      "header": 9
+    }
+  ],
+  "RotaryEncoders": [
+    {
+      "name": "Rotary1",
+      "state": {
+        "header": 8,
+        "pin"   : 11
+      },
+      "direction": {
+        "header": 8,
+        "pin": 12
+      }
+    }
+  ]
+}
