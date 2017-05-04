@@ -1,0 +1,74 @@
+---
+- hosts: all
+  become: yes
+  become_user: root
+  gather_facts: no
+  vars:
+    jetbrains:
+      products:
+          - clion
+
+  roles:
+    - jetbrains
+
+
+  pre_tasks:
+    - name: 'install python2'
+      apt:
+        name: python-simplejson
+        state: present
+#  - name: Update all packages to the latest version
+#    apt:
+#      upgrade: dist
+#      update_cache: yes
+    - name: Installing Lubuntu
+      apt:
+        name: lubuntu-core
+        state: present
+    - name: installing terminal
+      apt:
+        name: lxterminal
+        state: present
+    - name: cleaning up...
+      apt:
+        autoremove: yes
+    - name: Adding Google Keys
+      apt_key:
+        url: "https://dl-ssl.google.com/linux/linux_signing_key.pub"
+        state: present
+    - name: Adding Chrome Repo
+      apt_repository:
+        repo: deb http://dl.google.com/linux/chrome/deb/ stable main
+        state: present
+        update_cache: yes
+
+    - name: Installing Chrome
+      apt:
+        update_cache: yes
+        name: google-chrome-stable
+        state: present
+    - name: Install GCC and Co.
+      apt:
+        name: build-essential
+        state: present
+    - name: Install gdb
+      apt:
+        name: gdb
+        state: present
+    - name: Installing cmake
+      apt:
+        name: cmake
+        state: present
+    - name: Installing nano
+      apt:
+        name: nano
+        state: present
+    - name: removing buggy kernel
+      apt:
+        name: linux-image-4.4.0-62-generic
+        state: absent
+    - name: fixing linux-kernel
+      command: apt-mark hold linux-image-generic linux-headers-generic
+  tasks:
+    - name: reboot
+      command: /sbin/reboot

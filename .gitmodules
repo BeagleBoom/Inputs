@@ -1,0 +1,3 @@
+[submodule "vagrant/roles/jetbrains"]
+	path = vagrant/roles/jetbrains
+	url = https://gitlab.com/tomaskadlec/ansible-role-jetbrains.git

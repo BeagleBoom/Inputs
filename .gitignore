@@ -8,3 +8,5 @@ CMakeCache.txt
 Doxyfile
 Makefile
 Poco/
+/vagrant/.vagrant/
+/vagrant/playbook.retry
