@@ -16,7 +16,7 @@ void IOManager::check() {
     }
 }
 
-void IOManager::init(std::function<void()> callback) {
+void IOManager::init(std::function<void(InputDeviceType type, std::string name, int value)> callback) {
     JsonHelper *json = new JsonHelper((char *) "configs/io.json");
     /**
      * ADD ALL TE BUTTNS
