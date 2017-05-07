@@ -31,10 +31,14 @@ void InputDevice::addInput(int header, int pin) {
 }
 
 
-InputDevice::InputDevice(std::string name) {
+InputDevice::InputDevice(std::string name, std::function<void(InputDeviceType type, std::string name, int value)> callback) {
     this->name = name;
+    this->callback = callback;
 }
 
 void InputDevice::emit(int value) {
     std::cout << this->name << " " << value << std::endl;
+    if(callback) {
+        callback(this->getInputDeviceType(), this->name, value);
+    }
 }

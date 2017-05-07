@@ -18,9 +18,16 @@ set(ENABLE_PAGECOMPILER_FILE2PAGE false)
 set(ENABLE_XML false)
 set(ENABLE_NET false)
 set(ENABLE_UTIL false)
+
 set(CMAKE_MODULE_PATH
-        ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/libs/poco/cmake)
-add_subdirectory(libs/poco)
+        ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+
+find_package(Poco REQUIRED JSON)
+
+target_link_libraries(${PROJECT_NAME} PUBLIC ${Poco_Foundation_LIBRARY})
+target_link_libraries(${PROJECT_NAME} PUBLIC ${Poco_Util_LIBRARY})
+target_link_libraries(${PROJECT_NAME} PUBLIC ${Poco_JSON_LIBRARY})
+
 
 # Binaries
 target_link_libraries(iohandler JSON)

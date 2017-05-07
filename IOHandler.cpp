@@ -9,7 +9,7 @@ int main() {
     iolib_free();
     iolib_init();
     IOManager io;
-    io.init();
+    io.init(eventCallback);
     /*Button *btn = new Button("Button1", 8, 13);
     Button *btn2 = new Button("Button2", 9, 24);
     Button *btn3 = new Button("Button3", 9, 12);
@@ -26,4 +26,8 @@ int main() {
 
     iolib_free();
     return 0;
+}
+
+void eventCallback(InputDeviceType type, std::string name, int value) {
+
 }

@@ -9,6 +9,9 @@
 #include <string>
 #include "../BBBio_lib/BBBiolib.h"
 
+enum InputDeviceType { BUTTON, ROTARY_ENCODER };
+
+
 class InputDevice {
     /**
      * Return PINs
@@ -25,11 +28,15 @@ protected:
     std::vector<Pin> pins;
     std::string name;
     void addInput(int header, int pin);
+    std::function<void(InputDeviceType type, std::string name, int value)> callback;
+
 public:
-    InputDevice(std::string name);
+    InputDevice(std::string name, std::function<void(InputDeviceType type, std::string name, int value)> callback);
     virtual void onChange(Pin pin) = 0;
     virtual void check();
     virtual void emit(int value);
+
+    virtual InputDeviceType getInputDeviceType();
 };
 
 #endif //SAMPLERV2_INPUTDEVICE_H
