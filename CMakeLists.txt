@@ -24,9 +24,14 @@ set(CMAKE_MODULE_PATH
 
 find_package(Poco REQUIRED JSON)
 
-target_link_libraries(${PROJECT_NAME} PUBLIC ${Poco_Foundation_LIBRARY})
-target_link_libraries(${PROJECT_NAME} PUBLIC ${Poco_Util_LIBRARY})
-target_link_libraries(${PROJECT_NAME} PUBLIC ${Poco_JSON_LIBRARY})
+target_link_libraries(iohandler PUBLIC ${Poco_Foundation_LIBRARY})
+target_link_libraries(iohandler PUBLIC ${Poco_Util_LIBRARY})
+target_link_libraries(iohandler PUBLIC ${Poco_JSON_LIBRARY})
+
+
+target_link_libraries(iosetup PUBLIC ${Poco_Foundation_LIBRARY})
+target_link_libraries(iosetup PUBLIC ${Poco_Util_LIBRARY})
+target_link_libraries(iosetup PUBLIC ${Poco_JSON_LIBRARY})
 
 
 # Binaries
