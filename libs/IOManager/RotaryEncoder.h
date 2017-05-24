@@ -14,8 +14,10 @@ class RotaryEncoder: public InputDevice {
     int directionHeader;
     int directionPin;
     void onChange(Pin pin) override;
+    InputDeviceType getInputDeviceType() override;
+
 public:
-    RotaryEncoder(std::string name, int stateHeader, int statePin, int directionHeader, int directionPin);
+    RotaryEncoder(std::string name, std::function<void(InputDeviceType type, std::string name, int value)> callback, int stateHeader, int statePin, int directionHeader, int directionPin);
 };
 
 

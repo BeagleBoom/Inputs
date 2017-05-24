@@ -13,7 +13,7 @@ protected:
     std::vector<InputDevice *> devices;
     void add(InputDevice *dev);
 public:
-    void init();
+    void init(std::function<void(InputDeviceType type, std::string name, int value)> callback);
     void check();
 };
 

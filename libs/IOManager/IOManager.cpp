@@ -16,7 +16,7 @@ void IOManager::check() {
     }
 }
 
-void IOManager::init() {
+void IOManager::init(std::function<void(InputDeviceType type, std::string name, int value)> callback) {
     JsonHelper *json = new JsonHelper((char *) "configs/io.json");
     /**
      * ADD ALL TE BUTTNS
@@ -25,6 +25,7 @@ void IOManager::init() {
         Object::Ptr obj = json->getArray("Buttons")->getObject(i);
         Button *btn = new Button(
                 json->getString(obj, "name"),
+                callback,
                 json->getInt(obj, "header"),
                 json->getInt(obj, "pin"));
 
@@ -40,6 +41,7 @@ void IOManager::init() {
         Object::Ptr direction = obj->getObject("direction");
         RotaryEncoder *encoder = new RotaryEncoder(
                 json->getString(obj, "name"),
+                callback,
                 json->getInt(state, "header"),
                 json->getInt(state, "pin"),
                 json->getInt(direction, "header"),

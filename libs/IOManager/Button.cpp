@@ -5,7 +5,8 @@
 #include <iostream>
 #include "Button.h"
 
-Button::Button(std::string name, int header, int pin) : InputDevice(name) {
+Button::Button(std::string name, std::function<void(InputDeviceType type, std::string name, int value)> callback,
+               int header, int pin) : InputDevice(name, callback) {
     this->addInput(header, pin);
 }
 
@@ -13,4 +14,8 @@ void Button::onChange(InputDevice::Pin pin) {
     if (pin.value == 1) {
         emit(pin.value);
     }
+}
+
+InputDeviceType Button::getInputDeviceType() {
+    return InputDeviceType::BUTTON;
 }
