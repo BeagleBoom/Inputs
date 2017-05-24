@@ -5,6 +5,10 @@
 #include "libs/IOManager/RotaryEncoder.h"
 #include <unistd.h>
 
+void eventCallback(InputDeviceType type, std::string name, int value) {
+
+}
+
 int main() {
     iolib_free();
     iolib_init();
@@ -26,8 +30,4 @@ int main() {
 
     iolib_free();
     return 0;
-}
-
-void eventCallback(InputDeviceType type, std::string name, int value) {
-
 }

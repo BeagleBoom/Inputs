@@ -5,7 +5,7 @@
 		<Option title="SamplerV2"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
@@ -211,35 +211,8 @@
 		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoJSONConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoJSONConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoFoundationConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoFoundationConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoFoundationTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoFoundationTargets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoJSONTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/../../../../usr/local/lib/cmake/Poco/PocoJSONTargets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/cmake/FindPoco.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

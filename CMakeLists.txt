@@ -10,30 +10,24 @@ add_executable(iohandler ${SOURCE_FILES} libs/IOManager/IOManager.cpp libs/IOMan
 add_executable(iosetup IOSetup.cpp libs/Util/JsonHelper.h libs/Util/JsonHelper.cpp)
 
 # POCO
-set(ENABLE_MONGODB false)
-set(ENABLE_DATA false)
-set(ENABLE_ZIP false)
-set(ENABLE_PAGECOMPILER false)
-set(ENABLE_PAGECOMPILER_FILE2PAGE false)
-set(ENABLE_XML false)
-set(ENABLE_NET false)
-set(ENABLE_UTIL false)
+#set(ENABLE_MONGODB false)
+#set(ENABLE_DATA false)
+#set(ENABLE_ZIP false)
+#set(ENABLE_PAGECOMPILER false)
+#set(ENABLE_PAGECOMPILER_FILE2PAGE false)
+#set(ENABLE_XML false)
+#set(ENABLE_NET false)
+#set(ENABLE_UTIL true)
 
 set(CMAKE_MODULE_PATH
         ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
-find_package(Poco REQUIRED JSON)
+find_package(Poco REQUIRED JSON UTIL FOUNDATION)
 
 target_link_libraries(iohandler PUBLIC ${Poco_Foundation_LIBRARY})
 target_link_libraries(iohandler PUBLIC ${Poco_Util_LIBRARY})
 target_link_libraries(iohandler PUBLIC ${Poco_JSON_LIBRARY})
-
-
+MESSAGE(INFO ${Poco_Foundation_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_Foundation_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_Util_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_JSON_LIBRARY})
-
-
-# Binaries
-target_link_libraries(iohandler JSON)
-target_link_libraries(iosetup JSON)

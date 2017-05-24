@@ -8,6 +8,7 @@
 #include <vector>
 #include <string>
 #include "../BBBio_lib/BBBiolib.h"
+#include <functional>
 
 enum InputDeviceType { BUTTON, ROTARY_ENCODER };
 
@@ -28,6 +29,7 @@ protected:
     std::vector<Pin> pins;
     std::string name;
     void addInput(int header, int pin);
+
     std::function<void(InputDeviceType type, std::string name, int value)> callback;
 
 public:
@@ -36,7 +38,7 @@ public:
     virtual void check();
     virtual void emit(int value);
 
-    virtual InputDeviceType getInputDeviceType();
+    virtual InputDeviceType getInputDeviceType() = 0;
 };
 
 #endif //SAMPLERV2_INPUTDEVICE_H

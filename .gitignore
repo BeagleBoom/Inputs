@@ -3,7 +3,6 @@ tmp
 .idea
 .DS-Store
 CMakeFiles
-*.cmake
 CMakeCache.txt
 Doxyfile
 Makefile
