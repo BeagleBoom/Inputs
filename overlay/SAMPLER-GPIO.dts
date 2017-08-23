@@ -2,35 +2,410 @@
 /plugin/;
 
 /{
-       compatible = "ti,beaglebone", "ti,beaglebone-black";
-       part-number = "SAMPLER-GPIO";
-       version = "00A0";
+    compatible = "ti,beaglebone", "ti,beaglebone-black","ti,beaglebone-green";
+    part_number = "SAMPLER-GPIO";
 
-       fragment@0 {
-             target = <&am33xx_pinmux>;
-            
-             __overlay__ {
-                  pinctrl_test: DM_GPIO_Test_Pins {
-			pinctrl-single,pins = <
-				0x078 0x37  /* P9_12 60 INPUT  MODE7 PULLUP*/
-				0x184 0x37  /* P9_24 15 INPUT  MODE7 PULLUP*/
-				0x034 0x37  /* P8_11 45 INPUT  MODE7 PULLUP*/
-				0x030 0x37  /* P8_12 44 INPUT  MODE7 PULLUP*/
-				0x024 0x37  /* P8_13 23 INPUT  MODE7 PULLUP*/
-			>;
-		  };
-             };
-       };
+    exclusive-use =
+        "P8.3",
+        "gpio1_6",
+        "P8.4",
+        "gpio1_7",
+        "P8.5",
+        "gpio1_2",
+        "P8.6",
+        "gpio1_3",
+        "P8.7",
+        "mmc1_sdcd",
+        "P8.8",
+        "gpio2_3",
+        "P8.9",
+        "gpio2_5",
+        "P8.10",
+        "gpio2_4",
+        "P8.11",
+        "gpio1_13",
+        "P8.12",
+        "gpio1_12",
+        "P8.13",
+        "gpio0_23",
+        "P8.15",
+        "gpio1_15",
+        "P8.16",
+        "gpio1_14",
+        "P8.18",
+        "gpio2_1",
+        "P8.19",
+        "gpio0_22",
+        "P8.20",
+        "pr1_pru1_pru_r30_13",
+        "P8.21",
+        "pr1_pru1_pru_r30_12",
+        "P8.22",
+        "gpio1_5",
+        "P8.23",
+        "gpio1_4",
+        "P8.24",
+        "gpio1_1",
+        "P8.25",
+        "gpio1_0",
+        "P8.26",
+        "gpio1_29",
+        "P8.27",
+        "pr1_pru1_pru_r31_8",
+        "P8.28",
+        "pr1_pru1_pru_r30_10",
+        "P8.29",
+        "gpio2_23",
+        "P8.30",
+        "gpio2_25",
+        "P8.34",
+        "gpio2_17",
+        "P8.35",
+        "gpio0_8",
+        "P8.36",
+        "gpio2_16",
+        "P9.15",
+        "gpio1_16",
+        "P9.16",
+        "gpio1_19",
+        "P8.46",
+        "pr1_pru1_pru_r30_1"
+        ;
 
-       fragment@1 {
-		target = <&ocp>;
-		__overlay__ {
-			gpio_helper: helper {
-				compatible = "gpio-of-helper";
-				pinctrl-names = "default";
-				pinctrl-0 = <&pinctrl_test>;
-				status = "okay";
-			};
-		};
-	};
+    fragment@0 {
+        target = <&am33xx_pinmux>;
+        __overlay__ {
+            bs_pinmode_P8_3_0x2f: pinmux_bs_pinmode_P8_3_0x2f {
+                pinctrl-single,pins = <0x018 0x2f>;
+            };
+            bs_pinmode_P8_4_0x2f: pinmux_bs_pinmode_P8_4_0x2f {
+                pinctrl-single,pins = <0x01c 0x2f>;
+            };
+            bs_pinmode_P8_5_0x2f: pinmux_bs_pinmode_P8_5_0x2f {
+                pinctrl-single,pins = <0x008 0x2f>;
+            };
+            bs_pinmode_P8_6_0x2f: pinmux_bs_pinmode_P8_6_0x2f {
+                pinctrl-single,pins = <0x00c 0x2f>;
+            };
+            bs_pinmode_P8_7_0x2f: pinmux_bs_pinmode_P8_7_0x2f {
+                pinctrl-single,pins = <0x090 0x2f>;
+            };
+            bs_pinmode_P8_8_0x2f: pinmux_bs_pinmode_P8_8_0x2f {
+                pinctrl-single,pins = <0x094 0x2f>;
+            };
+            bs_pinmode_P8_9_0x2f: pinmux_bs_pinmode_P8_9_0x2f {
+                pinctrl-single,pins = <0x09c 0x2f>;
+            };
+            bs_pinmode_P8_10_0x2f: pinmux_bs_pinmode_P8_10_0x2f {
+                pinctrl-single,pins = <0x098 0x2f>;
+            };
+            bs_pinmode_P8_11_0x2f: pinmux_bs_pinmode_P8_11_0x2f {
+                pinctrl-single,pins = <0x034 0x2f>;
+            };
+            bs_pinmode_P8_12_0x2f: pinmux_bs_pinmode_P8_12_0x2f {
+                pinctrl-single,pins = <0x030 0x2f>;
+            };
+            bs_pinmode_P8_13_0x2f: pinmux_bs_pinmode_P8_13_0x2f {
+                pinctrl-single,pins = <0x024 0x2f>;
+            };
+            bs_pinmode_P8_15_0x2f: pinmux_bs_pinmode_P8_15_0x2f {
+                pinctrl-single,pins = <0x03c 0x2f>;
+            };
+            bs_pinmode_P8_16_0x2f: pinmux_bs_pinmode_P8_16_0x2f {
+                pinctrl-single,pins = <0x038 0x2f>;
+            };
+            bs_pinmode_P8_18_0x2f: pinmux_bs_pinmode_P8_18_0x2f {
+                pinctrl-single,pins = <0x08c 0x2f>;
+            };
+            bs_pinmode_P8_19_0x2f: pinmux_bs_pinmode_P8_19_0x2f {
+                pinctrl-single,pins = <0x020 0x2f>;
+            };
+
+            /* ADC CS */
+            bs_pinmode_P8_20_0x2d: pinmux_bs_pinmode_P8_20_0x2d {
+                pinctrl-single,pins = <0x084 0x2d>;
+            };
+
+            /* ADC MOSI */
+            bs_pinmode_P8_21_0x2d: pinmux_bs_pinmode_P8_21_0x2d {
+                pinctrl-single,pins = <0x080 0x2d>;
+            };
+
+            bs_pinmode_P8_22_0x2f: pinmux_bs_pinmode_P8_22_0x2f {
+                pinctrl-single,pins = <0x014 0x2f>;
+            };
+
+            bs_pinmode_P8_23_0x2f: pinmux_bs_pinmode_P8_23_0x2f {
+                pinctrl-single,pins = <0x010 0x2f>;
+            };
+            bs_pinmode_P8_24_0x2f: pinmux_bs_pinmode_P8_24_0x2f {
+                pinctrl-single,pins = <0x004 0x2f>;
+            };
+            bs_pinmode_P8_25_0x2f: pinmux_bs_pinmode_P8_25_0x2f {
+                pinctrl-single,pins = <0x000 0x2f>;
+            };
+            bs_pinmode_P8_26_0x2f: pinmux_bs_pinmode_P8_26_0x2f {
+                pinctrl-single,pins = <0x07c 0x2f>;
+            };
+
+            /* ADC MISO */
+            bs_pinmode_P8_27_0x2e: pinmux_bs_pinmode_P8_27_0x2e {
+                pinctrl-single,pins = <0x0e0 0x2e>;
+            };
+
+            /* ADC CLK */
+            bs_pinmode_P8_28_0x2d: pinmux_bs_pinmode_P8_28_0x2d {
+                pinctrl-single,pins = <0x0e8 0x2d>;
+            };
+            bs_pinmode_P8_29_0x2f: pinmux_bs_pinmode_P8_29_0x2f {
+                pinctrl-single,pins = <0x0e4 0x2f>;
+            };
+
+            bs_pinmode_P8_30_0x2f: pinmux_bs_pinmode_P8_30_0x2f {
+                pinctrl-single,pins = <0x0ec 0x2f>;
+            };
+            bs_pinmode_P8_34_0x2f: pinmux_bs_pinmode_P8_34_0x2f {
+                pinctrl-single,pins = <0x0cc 0x2f>;
+            };
+            bs_pinmode_P8_35_0x2f: pinmux_bs_pinmode_P8_35_0x2f {
+                pinctrl-single,pins = <0x0d0 0x2f>;
+            };
+            bs_pinmode_P8_36_0x2f: pinmux_bs_pinmode_P8_36_0x2f {
+                pinctrl-single,pins = <0x0c8 0x2f>;
+            };
+
+            /* LCD D/C*/
+            bs_pinmode_P9_15_0xf: pinmux_bs_pinmode_P9_15_0xf {
+                pinctrl-single,pins = <0x040 0xf>;
+            };
+
+            /* LCD RESET */
+            bs_pinmode_P9_16_0xf: pinmux_bs_pinmode_P9_16_0xf {
+                pinctrl-single,pins = <0x04c 0xf>;
+            };
+
+            /* ADC SOFTWARECLK */
+            bs_pinmode_P8_46_0xd: pinmux_bs_pinmode_P8_46_0xd {
+                pinctrl-single,pins = <0x0a4 0xd>;
+            };
+        };
+    };
+
+    fragment@1 {
+        target = <&ocp>;
+        __overlay__ {
+            bs_pinmode_P8_3_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_3_0x2f>;
+            };
+            bs_pinmode_P8_4_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_4_0x2f>;
+            };
+            bs_pinmode_P8_5_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_5_0x2f>;
+            };
+            bs_pinmode_P8_6_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_6_0x2f>;
+            };
+            bs_pinmode_P8_7_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_7_0x2f>;
+            };
+            bs_pinmode_P8_8_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_8_0x2f>;
+            };
+            bs_pinmode_P8_9_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_9_0x2f>;
+            };
+            bs_pinmode_P8_10_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_10_0x2f>;
+            };
+            bs_pinmode_P8_11_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_11_0x2f>;
+            };
+            bs_pinmode_P8_12_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_12_0x2f>;
+            };
+            bs_pinmode_P8_13_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_13_0x2f>;
+            };
+            bs_pinmode_P8_15_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_15_0x2f>;
+            };
+            bs_pinmode_P8_16_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_16_0x2f>;
+            };
+            bs_pinmode_P8_18_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_18_0x2f>;
+            };
+            bs_pinmode_P8_19_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_19_0x2f>;
+            };
+
+            /* ADC CS */
+            bs_pinmode_P8_20_0x2d_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_20_0x2d>;
+            };
+
+            /* ADC MOSI */
+            bs_pinmode_P8_21_0x2d_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_21_0x2d>;
+            };
+
+            bs_pinmode_P8_22_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_22_0x2f>;
+            };
+
+            bs_pinmode_P8_23_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_23_0x2f>;
+            };
+
+            bs_pinmode_P8_24_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_24_0x2f>;
+            };
+            bs_pinmode_P8_25_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_25_0x2f>;
+            };
+            bs_pinmode_P8_26_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_26_0x2f>;
+            };
+
+            /* ADC MISO */
+            bs_pinmode_P8_27_0x2e_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_27_0x2e>;
+            };
+
+            /* ADC CLK */
+            bs_pinmode_P8_28_0x2d_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_28_0x2d>;
+            };
+
+            bs_pinmode_P8_29_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_29_0x2f>;
+            };
+            bs_pinmode_P8_30_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_30_0x2f>;
+            };
+            bs_pinmode_P8_34_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_34_0x2f>;
+            };
+
+            bs_pinmode_P8_35_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_35_0x2f>;
+            };
+
+            bs_pinmode_P8_36_0x2f_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_36_0x2f>;
+            };
+
+            /* LCD D/C */
+            bs_pinmode_P9_15_0xf_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P9_15_0xf>;
+            };
+
+            /* LCD RESET */
+            bs_pinmode_P9_16_0xf_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P9_16_0xf>;
+            };
+
+            /* ADC SOFTWARECLK */
+            bs_pinmode_P8_46_0xd_pinmux {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&bs_pinmode_P8_46_0xd>;
+            };
+        };
+    };
 };

@@ -2,23 +2,23 @@
   "Buttons": [
     {
       "name": "Button1",
-      "pin" : 13,
+      "pin" : 3,
       "header": 8
     },
     {
       "name": "Button2",
-      "pin" : 12,
-      "header": 9
+      "pin" : 4,
+      "header": 8
     },
     {
       "name": "Button3",
-      "pin" : 24,
-      "header": 9
+      "pin" : 5,
+      "header": 8
     },
     {
       "name": "RotaryButton1",
-      "pin" : 12,
-      "header": 9
+      "pin" : 13,
+      "header": 8
     }
   ],
   "RotaryEncoders": [
