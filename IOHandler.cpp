@@ -7,10 +7,10 @@
 #include <EventQueue/Event.h>
 #include <EventQueue/MessageQueue.h>
 #include <unistd.h>
-
+#include <memory>
 
 int main() {
-    const int queueValue = 1;
+    const int queueValue = 2;
 
     iolib_free();
     iolib_init();
@@ -38,7 +38,10 @@ int main() {
             default:
                 return;
         }
+
+
         event->addString(name);
+        std::cout << ">> " << name << "(value: " << value << ")" << std::endl;
         queue.send(*event.get());
     });
     while (true) {

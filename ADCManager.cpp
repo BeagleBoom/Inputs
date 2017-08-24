@@ -5,7 +5,7 @@
 
 #define REFERENCE_VCC 5
 
-const int queueValue = 2;
+const int queueValue = 3;
 
 int getTone(int16_t value) {
     float_t oneToneSize = 0xfff / (REFERENCE_VCC * 12);

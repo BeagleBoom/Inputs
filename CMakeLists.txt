@@ -23,8 +23,7 @@ set(ENABLE_UTIL true)
 
 set(CMAKE_MODULE_PATH
         ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
-
-find_package(Poco REQUIRED JSON UTIL FOUNDATION)
+find_package(Poco REQUIRED JSON Util Foundation)
 
 find_package(EventQueue REQUIRED)
 

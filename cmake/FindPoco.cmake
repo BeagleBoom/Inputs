@@ -13,48 +13,47 @@
 # OSP
 #
 # Usage:
-#   set(ENV{Poco_DIR} path/to/poco/sdk)
-#   find_package(Poco REQUIRED OSP Data Crypto)
+#	set(ENV{Poco_DIR} path/to/poco/sdk)
+#	find_package(Poco REQUIRED OSP Data Crypto)
 #
 # On completion, the script defines the following variables:
 #
-#   - Compound variables:
+#	- Compound variables:
 #   Poco_FOUND
-#       - true if all requested components were found.
-#   Poco_LIBRARIES
-#       - contains release (and debug if available) libraries for all requested components.
-#         It has the form "optimized LIB1 debug LIBd1 optimized LIB2 ...", ready for use with the target_link_libraries command.
-#   Poco_INCLUDE_DIRS
-#       - Contains include directories for all requested components.
+#		- true if all requested components were found.
+#	Poco_LIBRARIES
+#		- contains release (and debug if available) libraries for all requested components.
+#		  It has the form "optimized LIB1 debug LIBd1 optimized LIB2 ...", ready for use with the target_link_libraries command.
+#	Poco_INCLUDE_DIRS
+#		- Contains include directories for all requested components.
 #
-#   - Component variables:
+#	- Component variables:
 #   Poco_Xxx_FOUND
-#       - Where Xxx is the properly cased component name (eg. 'Util', 'OSP').
-#         True if a component's library or debug library was found successfully.
-#   Poco_Xxx_LIBRARY
-#       - Library for component Xxx.
-#   Poco_Xxx_LIBRARY_DEBUG
-#       - debug library for component Xxx
+#		- Where Xxx is the properly cased component name (eg. 'Util', 'OSP').
+#		  True if a component's library or debug library was found successfully.
+#	Poco_Xxx_LIBRARY
+#		- Library for component Xxx.
+#	Poco_Xxx_LIBRARY_DEBUG
+#		- debug library for component Xxx
 #   Poco_Xxx_INCLUDE_DIR
-#       - include directory for component Xxx
+#		- include directory for component Xxx
 #
-#   - OSP BundleCreator variables: (i.e. bundle.exe on windows, bundle on unix-likes)
-#       (is only discovered if OSP is a requested component)
-#   Poco_OSP_Bundle_EXECUTABLE_FOUND
-#       - true if the bundle-creator executable was found.
-#   Poco_OSP_Bundle_EXECUTABLE
-#       - the path to the bundle-creator executable.
+#  	- OSP BundleCreator variables: (i.e. bundle.exe on windows, bundle on unix-likes)
+#		(is only discovered if OSP is a requested component)
+#	Poco_OSP_Bundle_EXECUTABLE_FOUND
+#		- true if the bundle-creator executable was found.
+#	Poco_OSP_Bundle_EXECUTABLE
+#		- the path to the bundle-creator executable.
 #
 # Author: Andreas Stahl andreas.stahl@tu-dresden.de
+
 set(Poco_HINTS
         /usr/local
         C:/AppliedInformatics
         ${Poco_DIR}
         $ENV{Poco_DIR}
-        $ENV{POCO_DIR}
-        $ENV{POCODIR}
-        $ENV{POCO_BASE}
         )
+
 if(NOT Poco_ROOT_DIR)
     # look for the root directory, first for the source-tree variant
     find_path(Poco_ROOT_DIR
@@ -70,9 +69,13 @@ if(NOT Poco_ROOT_DIR)
                 )
         if(NOT Poco_ROOT_DIR)
             # poco was still not found -> Fail
+            if (Poco_FIND_REQUIRED)
+                message(FATAL_ERROR "Poco: Could not find Poco install directory")
+            endif ()
             if(NOT Poco_FIND_QUIETLY)
-                message(FATAL_ERROR "Could not find Poco install directory")
+                message(STATUS "Poco: Could not find Poco install directory")
             endif()
+            return()
         else()
             # poco was found with the make install directory structure
             message(STATUS "Assuming Poco install directory structure at ${Poco_ROOT_DIR}.")
@@ -80,6 +83,7 @@ if(NOT Poco_ROOT_DIR)
         endif()
     endif()
 endif()
+
 # add dynamic library directory
 if(WIN32)
     find_path(Poco_RUNTIME_LIBRARY_DIRS
@@ -90,10 +94,12 @@ if(WIN32)
             lib
             )
 endif()
+
 # if installed directory structure, set full include dir
 if(Poco_INSTALLED)
     set(Poco_INCLUDE_DIRS ${Poco_ROOT_DIR}/include/ CACHE PATH "The global include path for Poco")
 endif()
+
 # append the default minimum components to the list to find
 list(APPEND components
         ${Poco_FIND_COMPONENTS}
@@ -102,13 +108,15 @@ list(APPEND components
         "Foundation"
         )
 list(REMOVE_DUPLICATES components) # remove duplicate defaults
+
 foreach( component ${components} )
     #if(NOT Poco_${component}_FOUND)
+
     # include directory for the component
     if(NOT Poco_${component}_INCLUDE_DIR)
         find_path(Poco_${component}_INCLUDE_DIR
                 NAMES
-                Poco/${component}.h     # e.g. Foundation.h
+                Poco/${component}.h  # e.g. Foundation.h
                 Poco/${component}/${component}.h # e.g. OSP/OSP.h Util/Util.h
                 HINTS
                 ${Poco_ROOT_DIR}
@@ -122,6 +130,7 @@ foreach( component ${components} )
     else()
         list(APPEND Poco_INCLUDE_DIRS ${Poco_${component}_INCLUDE_DIR})
     endif()
+
     # release library
     if(NOT Poco_${component}_LIBRARY)
         find_library(
@@ -140,6 +149,7 @@ foreach( component ${components} )
         list(APPEND Poco_LIBRARIES "optimized" ${Poco_${component}_LIBRARY} )
         mark_as_advanced(Poco_${component}_LIBRARY)
     endif()
+
     # debug library
     if(NOT Poco_${component}_LIBRARY_DEBUG)
         find_library(
@@ -158,6 +168,7 @@ foreach( component ${components} )
         list(APPEND Poco_LIBRARIES "debug" ${Poco_${component}_LIBRARY_DEBUG})
         mark_as_advanced(Poco_${component}_LIBRARY_DEBUG)
     endif()
+
     # mark component as found or handle not finding it
     if(Poco_${component}_LIBRARY_DEBUG OR Poco_${component}_LIBRARY)
         set(Poco_${component}_FOUND TRUE)
@@ -165,9 +176,11 @@ foreach( component ${components} )
         message(FATAL_ERROR "Could not find Poco component ${component}!")
     endif()
 endforeach()
+
 if(DEFINED Poco_LIBRARIES)
     set(Poco_FOUND true)
 endif()
+
 if(${Poco_OSP_FOUND})
     # find the osp bundle program
     find_program(
@@ -191,4 +204,6 @@ if(${Poco_OSP_FOUND})
         include(${Poco_OSP_Bundles_file})
     endif()
 endif()
+
 message(STATUS "Found Poco: ${Poco_LIBRARIES}")
+

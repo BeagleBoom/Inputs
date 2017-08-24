@@ -5,8 +5,10 @@
 #include <iostream>
 #include "RotaryEncoder.h"
 
-RotaryEncoder::RotaryEncoder(std::string name, std::function<void(InputDeviceType type, std::string name, int value)> callback,
-                             int stateHeader, int statePin, int directionHeader, int directionPin) : InputDevice(name, callback) {
+RotaryEncoder::RotaryEncoder(std::string name,
+                             std::function<void(InputDeviceType type, std::string name, int value)> callback,
+                             int stateHeader, int statePin, int directionHeader, int directionPin) : InputDevice(name,
+                                                                                                                 callback) {
     this->addInput(stateHeader, statePin);
     this->addInput(directionHeader, directionPin);
     this->directionHeader = directionHeader;

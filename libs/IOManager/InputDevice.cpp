@@ -38,7 +38,7 @@ InputDevice::InputDevice(std::string name,
 }
 
 void InputDevice::emit(int value) {
-    std::cout << this->name << " " << value << std::endl;
+    std::cout << this->name << " -> " << value << std::endl;
     if (callback) {
         callback(this->getInputDeviceType(), this->name, value);
     }
