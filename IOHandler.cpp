@@ -2,31 +2,49 @@
 #include "libs/BBBio_lib/BBBiolib.h"
 #include "libs/IOManager/Button.h"
 #include "libs/IOManager/IOManager.h"
-#include "libs/IOManager/RotaryEncoder.h"
+
+#include <EventQueue/QueueEventEnum.h>
+#include <EventQueue/Event.h>
+#include <EventQueue/MessageQueue.h>
 #include <unistd.h>
 
-void eventCallback(InputDeviceType type, std::string name, int value) {
-
-}
 
 int main() {
+    const int queueValue = 1;
+
     iolib_free();
     iolib_init();
     IOManager io;
-    io.init(eventCallback);
-    /*Button *btn = new Button("Button1", 8, 13);
-    Button *btn2 = new Button("Button2", 9, 24);
-    Button *btn3 = new Button("Button3", 9, 12);
-    RotaryEncoder *enc = new RotaryEncoder("Rotary1", 8, 11, 8, 12);
-    io.add(btn);
-    io.add(btn2);
-    io.add(btn3);
-    io.add(enc);*/
+
+    MessageQueue queue = MessageQueue(queueValue);
+
+    io.init([&queue](InputDeviceType type, std::string name, int value) -> void {
+        std::unique_ptr<Event> event;
+        switch (type) {
+            case InputDeviceType::BUTTON:
+                if (value == 0) {
+                    event.reset(new Event((int) QueueEventEnum::BUTTON_UP));
+                } else {
+                    event.reset(new Event((int) QueueEventEnum::BUTTON_DOWN));
+                }
+                break;
+            case InputDeviceType::ROTARY_ENCODER:
+                if (value == 1) {
+                    event.reset(new Event((int) QueueEventEnum::ROTARY_LEFT));
+                } else {
+                    event.reset(new Event((int) QueueEventEnum::ROTARY_RIGHT));
+                }
+                break;
+            default:
+                return;
+        }
+        event->addString(name);
+        queue.send(*event.get());
+    });
     while (true) {
         io.check();
         usleep(100);
     }
-
 
     iolib_free();
     return 0;

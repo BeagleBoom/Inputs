@@ -16,3 +16,6 @@
 [submodule "demos/pru-software-support-package"]
 	path = demos/pru-software-support-package
 	url = git://git.ti.com/pru-software-support-package/pru-software-support-package.git
+[submodule "libs/eventqueue"]
+	path = libs/eventqueue
+	url = https://friedemann.stoffregen%40student.fh-kiel.de@stash.iue.fh-kiel.de/scm/cas/eventqueue.git

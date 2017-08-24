@@ -7,8 +7,10 @@
 
 #include <vector>
 #include <string>
-#include "../BBBio_lib/BBBiolib.h"
 #include <functional>
+#include <iostream>
+#include "../BBBio_lib/BBBiolib.h"
+#include "../Util/JsonHelper.h"
 
 enum InputDeviceType { BUTTON, ROTARY_ENCODER };
 

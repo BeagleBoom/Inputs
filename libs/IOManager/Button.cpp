@@ -11,9 +11,7 @@ Button::Button(std::string name, std::function<void(InputDeviceType type, std::s
 }
 
 void Button::onChange(InputDevice::Pin pin) {
-    if (pin.value == 1) {
-        emit(pin.value);
-    }
+    emit(pin.value);
 }
 
 InputDeviceType Button::getInputDeviceType() {

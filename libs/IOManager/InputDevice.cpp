@@ -2,9 +2,9 @@
 // Created by Friedemann Stoffregen on 12.04.17.
 //
 
-#include <iostream>
 #include "InputDevice.h"
-#include "../Util/JsonHelper.h"
+#include "../eventqueue/include/QueueEventEnum.h"
+#include "../eventqueue/include/Event.h"
 
 void InputDevice::check() {
     for (auto &i:pins) {
@@ -31,14 +31,15 @@ void InputDevice::addInput(int header, int pin) {
 }
 
 
-InputDevice::InputDevice(std::string name, std::function<void(InputDeviceType type, std::string name, int value)> callback) {
+InputDevice::InputDevice(std::string name,
+                         std::function<void(InputDeviceType type, std::string name, int value)> callback) {
     this->name = name;
     this->callback = callback;
 }
 
 void InputDevice::emit(int value) {
     std::cout << this->name << " " << value << std::endl;
-    if(callback) {
+    if (callback) {
         callback(this->getInputDeviceType(), this->name, value);
     }
 }

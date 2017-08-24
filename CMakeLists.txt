@@ -24,12 +24,13 @@ set(CMAKE_MODULE_PATH
 
 find_package(Poco REQUIRED JSON UTIL FOUNDATION)
 
+find_package(EventQueue REQUIRED)
+
 target_link_libraries(iohandler PUBLIC ${Poco_Foundation_LIBRARY})
 target_link_libraries(iohandler PUBLIC ${Poco_Util_LIBRARY})
 target_link_libraries(iohandler PUBLIC ${Poco_JSON_LIBRARY})
+target_link_libraries(iohandler PUBLIC ${EventQueue_LIBRARY})
 MESSAGE(INFO ${Poco_Foundation_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_Foundation_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_Util_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_JSON_LIBRARY})
-
-add_executable(bittests demos/pruadc1/user_space/test.c)
