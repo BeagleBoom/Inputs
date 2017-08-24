@@ -9,3 +9,6 @@ Makefile
 Poco/
 /vagrant/.vagrant/
 /vagrant/playbook.retry
+iohandler
+iosetup
+adcmanager

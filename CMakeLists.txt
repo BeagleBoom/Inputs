@@ -8,6 +8,7 @@ file(GLOB_RECURSE BBBio "libs/BBBio_lib/*.c")
 set(SOURCE_FILES IOHandler.cpp ${BBBio} libs/IOManager/IOManager.cpp libs/IOManager/IOManager.h libs/IOManager/Button.cpp libs/IOManager/Button.h libs/IOManager/RotaryEncoder.cpp libs/IOManager/RotaryEncoder.h libs/IOManager/InputDevice.h libs/IOManager/InputDevice.cpp libs/Util/JsonHelper.cpp libs/Util/JsonHelper.h)
 add_executable(iohandler ${SOURCE_FILES} libs/IOManager/IOManager.cpp libs/IOManager/IOManager.h)
 add_executable(iosetup IOSetup.cpp libs/Util/JsonHelper.h libs/Util/JsonHelper.cpp)
+add_executable(adcmanager ADCManager.cpp)
 
 # POCO
 set(ENABLE_MONGODB false)
@@ -34,3 +35,9 @@ MESSAGE(INFO ${Poco_Foundation_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_Foundation_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_Util_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_JSON_LIBRARY})
+
+target_link_libraries(adcmanager PUBLIC ${EventQueue_LIBRARY})
+target_link_libraries(adcmanager PUBLIC ${Poco_Foundation_LIBRARY})
+target_link_libraries(adcmanager PUBLIC ${Poco_Util_LIBRARY})
+target_link_libraries(adcmanager PUBLIC ${Poco_JSON_LIBRARY})
+target_link_libraries(adcmanager PUBLIC ${EventQueue_LIBRARY})
