@@ -1,12 +1,13 @@
 #include <iostream>
-#include "libs/BBBio_lib/BBBiolib.h"
-#include "libs/IOManager/Button.h"
-#include "libs/IOManager/IOManager.h"
+#include "../libs/BBBio_lib/BBBiolib.h"
+#include "../libs/IOManager/Button.h"
+#include "../libs/IOManager/IOManager.h"
 
 #include <EventQueue/QueueEventEnum.h>
 #include <EventQueue/Event.h>
 #include <EventQueue/MessageQueue.h>
 #include <unistd.h>
+// Don't remove this. It's needed on Linux.
 #include <memory>
 
 int main() {
@@ -38,11 +39,9 @@ int main() {
             default:
                 return;
         }
-
-
         event->addString(name);
-        std::cout << ">> " << name << "(value: " << value << ")" << std::endl;
-        queue.send(*event.get());
+        std::cout << ">> " << event->getType() << " (value: " << event->getString(0) << ")" << std::endl;
+        queue.send(*event);
     });
     while (true) {
         io.check();

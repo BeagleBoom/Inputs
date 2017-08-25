@@ -11,241 +11,165 @@
 				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package">
 				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 package"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="iosetup">
-				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/iosetup" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug/iosetup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iosetup"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iosetup"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="iosetup/fast">
-				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/iosetup" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug/iosetup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iosetup/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iosetup/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package_source">
 				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 package_source"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="queuetest">
-				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/queuetest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug/queuetest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 queuetest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 queuetest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="queuetest/fast">
-				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/queuetest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug/queuetest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 queuetest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 queuetest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="adcmanager">
-				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/adcmanager" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug/adcmanager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 adcmanager"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 adcmanager"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="adcmanager/fast">
-				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/adcmanager" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug/adcmanager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 adcmanager/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 adcmanager/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="iohandler">
-				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/iohandler" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug/iohandler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iohandler"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iohandler"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="iohandler/fast">
-				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/iohandler" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2"/>
+				<Option output="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug/iohandler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/friedemannstoffregen/CLionProjects/SamplerV2/Bin/Debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iohandler/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 iohandler/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/friedemannstoffregen/CLionProjects/SamplerV2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/ADCManager.cpp">
-			<Option target="adcmanager"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/IOHandler.cpp">
-			<Option target="iohandler"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/IOSetup.cpp">
-			<Option target="iosetup"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/QueueTest.cpp">
-			<Option target="queuetest"/>
-		</Unit>
 		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib.c">
 			<Option target="iohandler"/>
 		</Unit>
@@ -301,6 +225,18 @@
 		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/Util/JsonHelper.h">
 			<Option target="iosetup"/>
 			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/src/ADCManager.cpp">
+			<Option target="adcmanager"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/src/IOHandler.cpp">
+			<Option target="iohandler"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/src/IOSetup.cpp">
+			<Option target="iosetup"/>
+		</Unit>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/src/QueueTest.cpp">
+			<Option target="queuetest"/>
 		</Unit>
 		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
