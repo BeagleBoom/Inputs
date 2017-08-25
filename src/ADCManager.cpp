@@ -22,6 +22,7 @@ struct ADCOut {
 void publish(ADCOut out) {
     MessageQueue queue = MessageQueue(queueValue);
     Event event = Event((int) QueueEventEnum::ADC_VALUES);
+    event.addString("ADC");
     event.addInt(6);
     event.addInt(static_cast<int>(out.gpio6));
 
