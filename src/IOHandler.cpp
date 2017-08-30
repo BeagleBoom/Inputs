@@ -10,8 +10,13 @@
 // Don't remove this. It's needed on Linux.
 #include <memory>
 
-int main() {
-    const int queueValue = 2;
+int main(int argc, char **argv) {
+    if (argc != 2) {
+        std::cout << "usage: " << argv[0] << " <Queue Channel Number>" << std::endl;
+        return -1;
+    }
+
+    int queueValue = std::stoi(argv[1]);
 
     iolib_free();
     iolib_init();

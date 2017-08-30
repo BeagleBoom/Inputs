@@ -4,10 +4,14 @@
 
 using namespace std;
 
-int main() {
-    MessageQueue queue(1);
+int main(int argc, char **argv) {
+    if (argc != 2) {
+        std::cout << "usage: " << argv[0] << " <Queue Channel Number>" << std::endl;
+        return -1;
+    }
+    int queueValue = stoi(argv[1]);
+    MessageQueue queue(queueValue);
     bool stop = false;
-
     do {
         Event e = queue.receive();
         std::cout << "Message" << std::endl;

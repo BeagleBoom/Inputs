@@ -5,7 +5,6 @@
 
 #define REFERENCE_VCC 5
 
-const int queueValue = 3;
 
 int getTone(int16_t value) {
     float_t oneToneSize = 0xfff / (REFERENCE_VCC * 12);
@@ -19,7 +18,7 @@ struct ADCOut {
     int tone_adc03 = 0;
 };
 
-void publish(ADCOut out) {
+void publish(ADCOut out, int queueValue) {
     MessageQueue queue = MessageQueue(queueValue);
     Event event = Event((int) QueueEventEnum::ADC_VALUES);
     event.addString("ADC");
@@ -41,6 +40,13 @@ void publish(ADCOut out) {
 int main(int argc, char **argv) {
     int pru_data, pru_clock; // file descriptors
     //  Open a file in write mode.
+
+    if (argc != 2) {
+        std::cout << "usage: " << argv[0] << " <Queue Channel Number>" << std::endl;
+        return -1;
+    }
+
+    int queueValue = std::stoi(argv[1]);
 
     int16_t buffer[490];
     //  Now, open the PRU character device.
@@ -81,7 +87,7 @@ int main(int argc, char **argv) {
                     }
                 }
             }
-            publish(out);
+            publish(out, queueValue);
         }
 
         // tell PRU that we processed the values
