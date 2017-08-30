@@ -31,13 +31,16 @@ void removeExport(int header, int pin) {
 
 
 int main() {
+    std::cout << "Loading config file ...";
     JsonHelper *ios = new JsonHelper((char *) "configs/io.json");
-
+    std::cout << " done!" << std::endl;
     /**
      * ADD ALL TE BUTTNS
      */
     for (int i = 0; i < ios->getArray("Buttons")->size(); i++) {
+
         Object::Ptr obj = ios->getArray("Buttons")->getObject(i);
+        std::cout << "Adding Button '" << ios->getString(obj, "name") << "'" << std::endl;
         addExport(ios->getInt(obj, "header"),
                   ios->getInt(obj, "pin"));
 
@@ -48,6 +51,8 @@ int main() {
      */
     for (int i = 0; i < ios->getArray("RotaryEncoders")->size(); i++) {
         Object::Ptr obj = ios->getArray("RotaryEncoders")->getObject(i);
+        std::cout << "Adding Rotary Encoder '" << ios->getString(obj, "name") << "'" << std::endl;
+
         Object::Ptr state = obj->getObject("state");
         Object::Ptr direction = obj->getObject("direction");
         addExport(

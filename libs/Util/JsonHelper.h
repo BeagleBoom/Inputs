@@ -25,9 +25,9 @@ public:
 
     Object::Ptr getObject(Object::Ptr object, const char *key);
 
-    string getString(const char *key);
+    std::string getString(const char *key);
 
-    string getString(Object::Ptr object, const char *key);
+    std::string getString(Object::Ptr object, const char *key);
 
     int getInt(string key);
 

@@ -61,6 +61,7 @@ string JsonHelper::getString(Object::Ptr object, const char *key) {
     return lsReturn;
 }
 
+
 int JsonHelper::getInt(Object::Ptr object, string key) {
     Poco::Dynamic::Var loVariable;
     int lsReturn;
