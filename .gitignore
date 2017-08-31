@@ -9,7 +9,7 @@ iohandler
 iosetup
 adcmanager
 queuetest
-Bin/
+bin/
 Inputs.cbp
 /CPackConfig.cmake
 /CPackSourceConfig.cmake
