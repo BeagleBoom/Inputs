@@ -170,6 +170,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/friedemannstoffregen/CLionProjects/BeagleBoom/ADCManager/src/ADCManager.cpp">
+			<Option target="adcmanager"/>
+		</Unit>
 		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/libs/BBBio_lib/BBBiolib.c">
 			<Option target="iohandler"/>
 		</Unit>
@@ -226,17 +229,11 @@
 			<Option target="iosetup"/>
 			<Option target="iohandler"/>
 		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/src/ADCManager.cpp">
-			<Option target="adcmanager"/>
-		</Unit>
 		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/src/IOHandler.cpp">
 			<Option target="iohandler"/>
 		</Unit>
 		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/src/IOSetup.cpp">
 			<Option target="iosetup"/>
-		</Unit>
-		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/src/QueueTest.cpp">
-			<Option target="queuetest"/>
 		</Unit>
 		<Unit filename="/Users/friedemannstoffregen/CLionProjects/SamplerV2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

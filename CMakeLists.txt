@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 3.5.2)
-project(SamplerV2)
+project(Inputs)
 
-set(CMAKE_BUILD_TYPE RelWithDebInfo)
-SET(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/Bin/${CMAKE_BUILD_TYPE} CACHE PATH "Library output path")
-SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/Bin/${CMAKE_BUILD_TYPE} CACHE PATH "Executable output path")
+SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin CACHE PATH "Executable output path")
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -12,8 +10,6 @@ file(GLOB_RECURSE BBBio "libs/BBBio_lib/*.c")
 set(SOURCE_FILES src/IOHandler.cpp ${BBBio} libs/IOManager/IOManager.cpp libs/IOManager/IOManager.h libs/IOManager/Button.cpp libs/IOManager/Button.h libs/IOManager/RotaryEncoder.cpp libs/IOManager/RotaryEncoder.h libs/IOManager/InputDevice.h libs/IOManager/InputDevice.cpp libs/Util/JsonHelper.cpp libs/Util/JsonHelper.h)
 add_executable(iohandler ${SOURCE_FILES} libs/IOManager/IOManager.cpp libs/IOManager/IOManager.h)
 add_executable(iosetup src/IOSetup.cpp libs/Util/JsonHelper.h libs/Util/JsonHelper.cpp)
-add_executable(adcmanager src/ADCManager.cpp)
-add_executable(queuetest src/QueueTest.cpp)
 
 # POCO
 set(ENABLE_MONGODB false)
@@ -24,30 +20,19 @@ set(ENABLE_PAGECOMPILER_FILE2PAGE false)
 set(ENABLE_XML false)
 set(ENABLE_NET false)
 set(ENABLE_UTIL true)
-
 set(CMAKE_MODULE_PATH
         ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+
 find_package(Poco REQUIRED JSON Util Foundation)
 
+#EventQueue
 find_package(EventQueue REQUIRED)
 
 target_link_libraries(iohandler PUBLIC ${Poco_Foundation_LIBRARY})
 target_link_libraries(iohandler PUBLIC ${Poco_Util_LIBRARY})
 target_link_libraries(iohandler PUBLIC ${Poco_JSON_LIBRARY})
 target_link_libraries(iohandler PUBLIC ${EventQueue_LIBRARY})
-MESSAGE(INFO ${Poco_Foundation_LIBRARY})
+
 target_link_libraries(iosetup PUBLIC ${Poco_Foundation_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_Util_LIBRARY})
 target_link_libraries(iosetup PUBLIC ${Poco_JSON_LIBRARY})
-
-target_link_libraries(adcmanager PUBLIC ${EventQueue_LIBRARY})
-target_link_libraries(adcmanager PUBLIC ${Poco_Foundation_LIBRARY})
-target_link_libraries(adcmanager PUBLIC ${Poco_Util_LIBRARY})
-target_link_libraries(adcmanager PUBLIC ${Poco_JSON_LIBRARY})
-target_link_libraries(adcmanager PUBLIC ${EventQueue_LIBRARY})
-
-target_link_libraries(queuetest PUBLIC ${EventQueue_LIBRARY})
-target_link_libraries(queuetest PUBLIC ${Poco_Foundation_LIBRARY})
-target_link_libraries(queuetest PUBLIC ${Poco_Util_LIBRARY})
-target_link_libraries(queuetest PUBLIC ${Poco_JSON_LIBRARY})
-target_link_libraries(queuetest PUBLIC ${EventQueue_LIBRARY})

@@ -4,12 +4,10 @@ tmp
 .DS-Store
 CMakeFiles
 CMakeCache.txt
-Doxyfile
 Makefile
-Poco/
-/vagrant/.vagrant/
-/vagrant/playbook.retry
 iohandler
 iosetup
 adcmanager
 queuetest
+Bin/
+Inputs.cbp

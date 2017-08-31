@@ -3,8 +3,8 @@
 //
 
 #include "InputDevice.h"
-#include "../eventqueue/include/QueueEventEnum.h"
-#include "../eventqueue/include/Event.h"
+#include <EventQueue/QueueEventEnum.h>
+#include <EventQueue/Event.h>
 
 void InputDevice::check() {
     for (auto &i:pins) {
