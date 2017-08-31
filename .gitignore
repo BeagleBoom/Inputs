@@ -11,3 +11,5 @@ adcmanager
 queuetest
 Bin/
 Inputs.cbp
+/CPackConfig.cmake
+/CPackSourceConfig.cmake
