@@ -3,7 +3,7 @@
 #include "../libs/IOManager/Button.h"
 #include "../libs/IOManager/IOManager.h"
 
-#include <EventQueue/QueueEventEnum.h>
+#include <EventQueue/EventType.h>
 #include <EventQueue/Event.h>
 #include <EventQueue/MessageQueue.h>
 #include <unistd.h>
@@ -29,16 +29,16 @@ int main(int argc, char **argv) {
         switch (type) {
             case InputDeviceType::BUTTON:
                 if (value == 0) {
-                    event.reset(new Event((int) QueueEventEnum::BUTTON_UP));
+                    event.reset(new Event(EventType::BUTTON_UP));
                 } else {
-                    event.reset(new Event((int) QueueEventEnum::BUTTON_DOWN));
+                    event.reset(new Event(EventType::BUTTON_DOWN));
                 }
                 break;
             case InputDeviceType::ROTARY_ENCODER:
                 if (value == 1) {
-                    event.reset(new Event((int) QueueEventEnum::ROTARY_LEFT));
+                    event.reset(new Event(EventType::ROTARY_LEFT));
                 } else {
-                    event.reset(new Event((int) QueueEventEnum::ROTARY_RIGHT));
+                    event.reset(new Event(EventType::ROTARY_RIGHT));
                 }
                 break;
             default:
