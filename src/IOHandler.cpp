@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
                 return;
         }
         event->addString(name);
-        std::cout << ">> " << event->getType() << " (value: " << event->getString(0) << ")" << std::endl;
+        //std::cout << ">> " << event->getType() << " (value: " << event->getString(0) << ")" << std::endl;
         queue.send(*event);
     });
     while (true) {
