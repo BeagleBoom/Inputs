@@ -1,74 +1,84 @@
 {
   "Buttons": [
     {
-      "name": "Button0",
-      "pin": 9,
-      "header": 8
-    },
-    {
-      "name": "Button1",
-      "pin": 6,
-      "header": 8
-    },
-    {
-      "name": "Button3",
+      "name": "SW9",
       "pin": 24,
       "header": 8
     },
     {
-      "name": "Button4",
+      "name": "SW10",
       "pin": 26,
       "header": 8
     },
     {
-      "name": "Button5",
+      "name": "SW11",
       "pin": 30,
       "header": 8
     },
     {
-      "name": "Button6",
+      "name": "SW12",
       "pin": 34,
       "header": 8
     },
     {
-      "name": "Button7",
+      "name": "SW13",
       "pin": 36,
       "header": 8
     },
     {
-      "name": "Rotary1Button",
-      "pin": 3,
-      "header": 8
-    },
-    {
-      "name": "Rotary2Button",
-      "pin": 11,
-      "header": 8
-    },
-    {
-      "name": "Rotary3Button",
+      "name": "SW3",
       "pin": 19,
       "header": 8
     },
     {
-      "name": "Rotary4Button",
+      "name": "SW6",
+      "pin": 16,
+      "header": 8
+    },
+    {
+      "name": "SW1",
+      "pin": 3,
+      "header": 8
+    },
+    {
+      "name": "SW2",
+      "pin": 11,
+      "header": 8
+    },
+    {
+      "name": "SW4",
       "pin": 29,
       "header": 8
     },
     {
-      "name": "Rotary5Button",
+      "name": "SW7",
+      "pin": 9,
+      "header": 8
+    },
+    {
+      "name": "SW5",
       "pin": 8,
       "header": 8
     },
     {
-      "name": "Rotary6Button",
-      "pin": 16,
+      "name": "SW8",
+      "pin": 6,
       "header": 8
     }
   ],
   "RotaryEncoders": [
     {
-      "name": "Rotary1",
+      "name": "RotarySW6",
+      "state": {
+        "header": 8,
+        "pin": 18
+      },
+      "direction": {
+        "header": 8,
+        "pin": 22
+      }
+    },{
+      "name": "RotarySW1",
       "state": {
         "header": 8,
         "pin": 5
@@ -77,9 +87,8 @@
         "header": 8,
         "pin": 7
       }
-    },
-    {
-      "name": "Rotary2",
+    },{
+      "name": "RotarySW2",
       "state": {
         "header": 8,
         "pin": 13
@@ -88,9 +97,8 @@
         "header": 8,
         "pin": 15
       }
-    },
-    {
-      "name": "Rotary3",
+    },{
+      "name": "RotarySW3",
       "state": {
         "header": 8,
         "pin": 23
@@ -99,20 +107,18 @@
         "header": 8,
         "pin": 25
       }
-    },
-    {
-      "name": "Rotary4",
+    },{
+      "name": "RotarySW4",
       "state": {
         "header": 8,
-        "pin": 4
+        "pin": 35
       },
       "direction": {
         "header": 8,
-        "pin": 6
+        "pin": 4
       }
-    },
-    {
-      "name": "Rotary5",
+    },{
+      "name": "RotarySW5",
       "state": {
         "header": 8,
         "pin": 10
@@ -120,17 +126,6 @@
       "direction": {
         "header": 8,
         "pin": 12
-      }
-    },
-    {
-      "name": "Rotary6",
-      "state": {
-        "header": 8,
-        "pin": 18
-      },
-      "direction": {
-        "header": 8,
-        "pin": 22
       }
     }
   ]

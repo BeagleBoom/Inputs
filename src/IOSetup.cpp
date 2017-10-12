@@ -3,6 +3,8 @@
 #include <zconf.h>
 
 
+using namespace std;
+
 void writeToFile(char *path, int gpio) {
     int fd;
     char buf[255];
@@ -13,7 +15,7 @@ void writeToFile(char *path, int gpio) {
 }
 
 int getLinuxPin(int header, int pin) {
-    JsonHelper *json = new JsonHelper((char *) "configs/pins.json");
+    JsonHelper *json = new JsonHelper((char *) "../configs/pins.json");
     std::string port = "port_" + std::to_string(header);
     std::string gpio_str = "pin_" + std::to_string(pin);
 
@@ -29,10 +31,9 @@ void removeExport(int header, int pin) {
     writeToFile((char *) "/sys/class/gpio/unexport", getLinuxPin(header, pin));
 }
 
-
 int main() {
     std::cout << "Loading config file ...";
-    JsonHelper *ios = new JsonHelper((char *) "configs/io.json");
+    JsonHelper *ios = new JsonHelper((char *) "../configs/io.json");
     std::cout << " done!" << std::endl;
     /**
      * ADD ALL TE BUTTNS
