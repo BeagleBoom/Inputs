@@ -3,7 +3,7 @@
 //
 
 #include "InputDevice.h"
-#include <EventQueue/QueueEventEnum.h>
+#include <EventQueue/EventType.h>
 #include <EventQueue/Event.h>
 
 void InputDevice::check() {
