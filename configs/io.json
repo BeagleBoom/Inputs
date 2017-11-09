@@ -1,132 +1,137 @@
 {
-  "Buttons": [
-    {
-      "name": "SW9",
-      "pin": 24,
-      "header": 8
-    },
-    {
-      "name": "SW10",
-      "pin": 26,
-      "header": 8
-    },
-    {
-      "name": "SW11",
-      "pin": 30,
-      "header": 8
-    },
-    {
-      "name": "SW12",
-      "pin": 34,
-      "header": 8
-    },
-    {
-      "name": "SW13",
-      "pin": 36,
-      "header": 8
-    },
-    {
-      "name": "SW3",
-      "pin": 19,
-      "header": 8
-    },
-    {
-      "name": "SW6",
-      "pin": 16,
-      "header": 8
-    },
-    {
-      "name": "SW1",
-      "pin": 3,
-      "header": 8
-    },
-    {
-      "name": "SW2",
-      "pin": 11,
-      "header": 8
-    },
-    {
-      "name": "SW4",
-      "pin": 29,
-      "header": 8
-    },
-    {
-      "name": "SW7",
-      "pin": 9,
-      "header": 8
-    },
-    {
-      "name": "SW5",
-      "pin": 8,
-      "header": 8
-    },
-    {
-      "name": "SW8",
-      "pin": 6,
-      "header": 8
-    }
-  ],
-  "RotaryEncoders": [
-    {
-      "name": "RotarySW6",
-      "state": {
-        "header": 8,
-        "pin": 18
-      },
-      "direction": {
-        "header": 8,
-        "pin": 22
-      }
-    },{
-      "name": "RotarySW1",
-      "state": {
-        "header": 8,
-        "pin": 5
-      },
-      "direction": {
-        "header": 8,
-        "pin": 7
-      }
-    },{
-      "name": "RotarySW2",
-      "state": {
-        "header": 8,
-        "pin": 13
-      },
-      "direction": {
-        "header": 8,
-        "pin": 15
-      }
-    },{
-      "name": "RotarySW3",
-      "state": {
-        "header": 8,
-        "pin": 23
-      },
-      "direction": {
-        "header": 8,
-        "pin": 25
-      }
-    },{
-      "name": "RotarySW4",
-      "state": {
-        "header": 8,
-        "pin": 35
-      },
-      "direction": {
-        "header": 8,
-        "pin": 4
-      }
-    },{
-      "name": "RotarySW5",
-      "state": {
-        "header": 8,
-        "pin": 10
-      },
-      "direction": {
-        "header": 8,
-        "pin": 12
-      }
-    }
-  ]
+"Buttons": [
+{
+"name": "BACK",
+"pin": 24,
+"header": 8
+},
+{
+"name": "A",
+"pin": 26,
+"header": 8
+},
+{
+"name": "B",
+"pin": 30,
+"header": 8
+},
+{
+"name": "C",
+"pin": 34,
+"header": 8
+},
+{
+"name": "D",
+"pin": 36,
+"header": 8
+},
+{
+"name": "Z1_PUSH",
+"pin": 19,
+"header": 8
+},
+{
+"name": "Z2_PUSH",
+"pin": 16,
+"header": 8
+},
+{
+"name": "R1_PUSH",
+"pin": 3,
+"header": 8
+},
+{
+"name": "R2_PUSH",
+"pin": 11,
+"header": 8
+},
+{
+"name": "R3_PUSH",
+"pin": 29,
+"header": 8
+},
+{
+"name": "PLAY_RECORD",
+"pin": 9,
+"header": 8
+},
+{
+"name": "R4_PUSH",
+"pin": 8,
+"header": 8
+},
+{
+"name": "STOP_CLEAR",
+"pin": 6,
+"header": 8
+}
+],
+"RotaryEncoders": [
+{
+"name": "Z2_DIRECTION",
+"state": {
+"header": 8,
+"pin": 18
+},
+"direction": {
+"header": 8,
+"pin": 22
+}
+},
+{
+"name": "R1_DIRECTION",
+"state": {
+"header": 8,
+"pin": 5
+},
+"direction": {
+"header": 8,
+"pin": 7
+}
+},
+{
+"name": "R2_DIRECTION",
+"state": {
+"header": 8,
+"pin": 13
+},
+"direction": {
+"header": 8,
+"pin": 15
+}
+},
+{
+"name": "Z1_DIRECTION",
+"state": {
+"header": 8,
+"pin": 23
+},
+"direction": {
+"header": 8,
+"pin": 25
+}
+},
+{
+"name": "R3_DIRECTION",
+"state": {
+"header": 8,
+"pin": 35
+},
+"direction": {
+"header": 8,
+"pin": 4
+}
+},
+{
+"name": "R4_DIRECTION",
+"state": {
+"header": 8,
+"pin": 10
+},
+"direction": {
+"header": 8,
+"pin": 12
+}
+}
+]
 }
