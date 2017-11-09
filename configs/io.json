@@ -118,7 +118,7 @@
         "pin": 4
       }
     },{
-      "name": "R4_DIRECTION
+      "name": "R4_DIRECTION",
       "state": {
         "header": 8,
         "pin": 10
