@@ -1,74 +1,84 @@
 {
   "Buttons": [
     {
-      "name": "Button0",
-      "pin": 9,
-      "header": 8
-    },
-    {
-      "name": "Button1",
-      "pin": 6,
-      "header": 8
-    },
-    {
-      "name": "Button3",
+      "name": "BACK",
       "pin": 24,
       "header": 8
     },
     {
-      "name": "Button4",
+      "name": "A",
       "pin": 26,
       "header": 8
     },
     {
-      "name": "Button5",
+      "name": "B",
       "pin": 30,
       "header": 8
     },
     {
-      "name": "Button6",
+      "name": "C",
       "pin": 34,
       "header": 8
     },
     {
-      "name": "Button7",
+      "name": "D",
       "pin": 36,
       "header": 8
     },
     {
-      "name": "Rotary1Button",
-      "pin": 3,
-      "header": 8
-    },
-    {
-      "name": "Rotary2Button",
-      "pin": 11,
-      "header": 8
-    },
-    {
-      "name": "Rotary3Button",
+      "name": "Z1_PUSH",
       "pin": 19,
       "header": 8
     },
     {
-      "name": "Rotary4Button",
+      "name": "Z2_PUSH",
+      "pin": 16,
+      "header": 8
+    },
+    {
+      "name": "R1_PUSH",
+      "pin": 3,
+      "header": 8
+    },
+    {
+      "name": "R2_PUSH",
+      "pin": 11,
+      "header": 8
+    },
+    {
+      "name": "R3_PUSH",
       "pin": 29,
       "header": 8
     },
     {
-      "name": "Rotary5Button",
+      "name": "PLAY_RECORD",
+      "pin": 9,
+      "header": 8
+    },
+    {
+      "name": "R4_PUSH",
       "pin": 8,
       "header": 8
     },
     {
-      "name": "Rotary6Button",
-      "pin": 16,
+      "name": "STOP_CLEAR",
+      "pin": 6,
       "header": 8
     }
   ],
   "RotaryEncoders": [
     {
-      "name": "Rotary1",
+      "name": "Z2_DIRECTION",
+      "state": {
+        "header": 8,
+        "pin": 18
+      },
+      "direction": {
+        "header": 8,
+        "pin": 22
+      }
+    },{
+      "name": "R1_DIRECTION",
       "state": {
         "header": 8,
         "pin": 5
@@ -77,9 +87,8 @@
         "header": 8,
         "pin": 7
       }
-    },
-    {
-      "name": "Rotary2",
+    },{
+      "name": "R2_DIRECTION",
       "state": {
         "header": 8,
         "pin": 13
@@ -88,9 +97,8 @@
         "header": 8,
         "pin": 15
       }
-    },
-    {
-      "name": "Rotary3",
+    },{
+      "name": "Z1_DIRECTION",
       "state": {
         "header": 8,
         "pin": 23
@@ -99,20 +107,18 @@
         "header": 8,
         "pin": 25
       }
-    },
-    {
-      "name": "Rotary4",
+    },{
+      "name": "R3_DIRECTION",
       "state": {
         "header": 8,
-        "pin": 4
+        "pin": 35
       },
       "direction": {
         "header": 8,
-        "pin": 6
+        "pin": 4
       }
-    },
-    {
-      "name": "Rotary5",
+    },{
+      "name": "R4_DIRECTION
       "state": {
         "header": 8,
         "pin": 10
@@ -120,17 +126,6 @@
       "direction": {
         "header": 8,
         "pin": 12
-      }
-    },
-    {
-      "name": "Rotary6",
-      "state": {
-        "header": 8,
-        "pin": 18
-      },
-      "direction": {
-        "header": 8,
-        "pin": 22
       }
     }
   ]
