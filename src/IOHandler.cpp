@@ -21,12 +21,10 @@ int main(int argc, char **argv) {
     iolib_free();
     iolib_init();
     IOManager io;
-    bool listen = false;
 
     MessageQueue queue = MessageQueue(queueValue);
 
-    io.init([&queue, &listen](InputDeviceType type, std::string name, int value) -> void {
-        if (listen) {
+    io.init([&queue](InputDeviceType type, std::string name, int value) -> void {
         std::unique_ptr<Event> event;
         switch (type) {
             case InputDeviceType::BUTTON:
@@ -49,12 +47,9 @@ int main(int argc, char **argv) {
         event->addString(name);
         std::cout << ">> (value: " << event->getString(0) << ")" << std::endl;
         queue.send(*event);
-        } else {
-            usleep(2000);
-            listen = true;
-        }
     });
     while (true) {
+
         io.check();
         usleep(100);
     }

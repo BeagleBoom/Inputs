@@ -25,7 +25,6 @@ void InputDevice::addInput(int header, int pin) {
     Pin p;
     p.header = header;
     p.pin = pin;
-    //this->addExport(p);
     this->pins.push_back(p);
     iolib_setdir(p.header, p.pin, BBBIO_DIR_IN);
 }

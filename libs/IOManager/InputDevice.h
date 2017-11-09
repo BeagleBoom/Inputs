@@ -25,7 +25,7 @@ protected:
     struct Pin {
         int header;
         int pin;
-        int value = -1;
+        int value = 0;
     };
 
     std::vector<Pin> pins;
