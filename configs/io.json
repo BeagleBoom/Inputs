@@ -26,27 +26,27 @@
       "header": 8
     },
     {
-      "name": "Z1_PUSH",
+      "name": "Z1",
       "pin": 19,
       "header": 8
     },
     {
-      "name": "Z2_PUSH",
+      "name": "Z2",
       "pin": 16,
       "header": 8
     },
     {
-      "name": "R1_PUSH",
+      "name": "R1",
       "pin": 3,
       "header": 8
     },
     {
-      "name": "R2_PUSH",
+      "name": "R2",
       "pin": 11,
       "header": 8
     },
     {
-      "name": "R3_PUSH",
+      "name": "R3",
       "pin": 29,
       "header": 8
     },
@@ -56,7 +56,7 @@
       "header": 8
     },
     {
-      "name": "R4_PUSH",
+      "name": "R4",
       "pin": 8,
       "header": 8
     },
@@ -68,7 +68,7 @@
   ],
   "RotaryEncoders": [
     {
-      "name": "Z2_DIRECTION",
+      "name": "Z2",
       "state": {
         "header": 8,
         "pin": 18
@@ -79,7 +79,7 @@
       }
     },
     {
-      "name": "R1_DIRECTION",
+      "name": "R1",
       "state": {
         "header": 8,
         "pin": 5
@@ -90,7 +90,7 @@
       }
     },
     {
-      "name": "R2_DIRECTION",
+      "name": "R2",
       "state": {
         "header": 8,
         "pin": 13
@@ -101,7 +101,7 @@
       }
     },
     {
-      "name": "Z1_DIRECTION",
+      "name": "Z1",
       "state": {
         "header": 8,
         "pin": 23
@@ -112,7 +112,7 @@
       }
     },
     {
-      "name": "R3_DIRECTION",
+      "name": "R3",
       "state": {
         "header": 8,
         "pin": 35
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "R4_DIRECTION",
+      "name": "R4",
       "state": {
         "header": 8,
         "pin": 10
