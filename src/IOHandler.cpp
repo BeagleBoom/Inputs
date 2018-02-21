@@ -25,6 +25,7 @@ int main(int argc, char **argv) {
     MessageQueue queue = MessageQueue(queueValue);
 
     io.init([&queue](InputDeviceType type, std::string name, int value) -> void {
+        std::cout << "value " << value << " name" << name << std::endl;
         std::unique_ptr<Event> event;
         switch (type) {
             case InputDeviceType::BUTTON:
