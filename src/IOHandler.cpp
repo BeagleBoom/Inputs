@@ -52,7 +52,7 @@ int main(int argc, char **argv) {
     while (true) {
 
         io.check();
-        usleep(100);
+        usleep(10000);
     }
 
     iolib_free();
