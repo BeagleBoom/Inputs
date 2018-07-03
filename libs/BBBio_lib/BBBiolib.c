@@ -151,7 +151,7 @@ int iolib_init(void)
 		return -1;
 	}
 
-	BBBIO_PWM_Init();
+	//BBBIO_PWM_Init();
 	BBBIO_McSPI_Init();
 	BBBIO_ADCTSC_Init();
 
