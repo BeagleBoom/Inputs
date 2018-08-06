@@ -1,7 +1,9 @@
 # About this repository
 This repository is part of the [BeagleBoom](https://github.com/beagleboom)-Sampler project developed by the academic working group "[Creative Technologies AG](http://www.creative-technologies.de/)" (ctag) at the [University of Applied Sciences Kiel](https://www.fh-kiel.de/).
 
-For a detailed documentation, have a look at the [Wiki](https://github.com/BeagleBoom/ADCManager/wiki).
+# What is it used for?
+The tool `IOSetup` sets up the GPIO-Pins needed for the Buttons and Rotary encoders used by the [BeagleBoom Snouts](https://github.com/BeagleBoom/Snouts).
+`IOManager` watches the Buttons and Rotary Encoders and promotes the changes via the [BeagleQueue](https://github.com/BeagleBoom/BeagleQueue)-Lib.
 
 # Prerequirements
 - You need a version of cmake >= 3.5.2
