@@ -93,8 +93,7 @@ Here is an excerpt of the io.json file:
       "name": "A",
       "pin": 26,
       "header": 8
-    },
-    ...
+    }
   ],
   "RotaryEncoders": [
     {
@@ -118,8 +117,7 @@ Here is an excerpt of the io.json file:
         "header": 8,
         "pin": 7
       }
-    },
-    ...
+    }
   ]
 }
 ```
